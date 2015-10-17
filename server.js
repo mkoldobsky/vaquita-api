@@ -13,8 +13,8 @@ var https_options = {
 	key: key,
 	cert: cert
 };
-var PORT = 8000;
-var HOST = 'localhost';
+var PORT = process.env.PORT || 8000;
+var HOST = 'shrouded-forest-7274.herokuapp.com';
 
 var app        = express();                // define our app using express
 
