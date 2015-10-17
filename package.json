@@ -1,0 +1,16 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "The mony group",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.0.0",
+    "morgan": "~1.0.0",
+    "mongoose": "4.1.11",
+    "body-parser": "~1.0.1",
+	"mercadopago": "~0.3.3"
+  }
+}
